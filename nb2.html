@@ -1,14 +1,19 @@
-<?php $cookies = $_GET["c"]; ?>
-
 <!DOCTYPE html>
 <html>
 <body>
 
-<?php
-echo "<h2>The cookie value is ";
-echo $cookies;
-echo "</h2>";
-?> 
+<script>
+	  const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const cookie = urlParams.get('c');
+</script>
+<h1>My First JavaScript</h1>
+
+<script>
+    document.write(cookie);
+</script>
 
 </body>
-</html>
+</html> 
+
+
