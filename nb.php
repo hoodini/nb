@@ -1,6 +1,4 @@
 <?php
         $cookies = $_GET["c"];
-        echo "<h1>";
-        echo $cookies;
-        echo "</h1>";
+        echo "<h1>$cookies</h1>"
 ?>
