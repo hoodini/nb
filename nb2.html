@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
-        <body>
+        <body>               
                 <script>const queryString = window.location.search;</script>
                 <script>const urlParams = new URLSearchParams(queryString);</script>
-                <script>const cookie = urlParams.get('c');</script>  
+                <script>const cookie = urlParams.get('c');</script> 
+                
                 <h1>My First JavaScript</h1>
-                <h2><script>document.write("queryString is: " + test);</script></h2>
+                
+                <h2><script>document.write("queryString is: " + queryString);</script></h2>
                 <h2><script>document.write("urlParams is: " + urlParams);</script></h2>
                 <h2><script>document.write("cookie is: " + cookie);</script></h2>
         </body>
 </html> 
+
